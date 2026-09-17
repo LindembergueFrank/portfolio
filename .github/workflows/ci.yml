@@ -2,12 +2,12 @@ name: CI
 
 on:
   push:
-    branches: [main, feat/portfolio-foundation]
+    branches: [main, feat/portfolio-release]
   pull_request:
     branches: [main]
 
 jobs:
-  build:
+  quality:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,5 +18,9 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install
+      - name: Lint
+        run: npm run lint
+      - name: Test
+        run: npm test
       - name: Build
         run: npm run build
