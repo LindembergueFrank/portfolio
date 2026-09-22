@@ -54,7 +54,7 @@ em { color: var(--accent); font-family: inherit; font-style: normal; font-weight
 
 .hero { min-height: calc(100vh - 72px); padding: clamp(4.5rem, 9vw, 7rem) 0 2.5rem; display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(240px, .55fr); grid-template-rows: 1fr auto; align-items: center; column-gap: clamp(3rem, 8vw, 7rem); }
 .hero h1, .about h2, .stack h2, .section-heading h2, .site-footer h2, .case-hero h1, .case-details h2 { margin: 1.1rem 0; letter-spacing: -.055em; line-height: 1.02; }
-.hero h1 { max-width: 760px; font-size: clamp(3.4rem, 7.5vw, 6.3rem); font-weight: 650; }
+.hero h1 { max-width: 760px; font-size: clamp(2.9rem, 5.2vw, 4.65rem); font-weight: 650; }
 .hero-name { display: inline-block; white-space: nowrap; }
 .lead { max-width: 670px; margin: 1.8rem 0 0; color: var(--muted); font-size: clamp(1rem, 1.7vw, 1.17rem); line-height: 1.75; }
 .hero-actions { margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; gap: 1.1rem; }
@@ -162,8 +162,8 @@ em { color: var(--accent); font-family: inherit; font-style: normal; font-weight
   .metrics { order: 3; width: 100%; margin-top: 3rem; grid-template-columns: 1fr; }
   .metrics div { padding: .85rem 0; }
   .metrics div + div { padding-left: 0; border-top: 1px solid var(--line); border-left: 0; }
-  .hero h1 { font-size: clamp(3rem, 15vw, 4.7rem); }
-  .hero-name { font-size: min(1em, 9.8vw); }
+  .hero h1 { font-size: clamp(2.35rem, 10.5vw, 3.6rem); }
+  .hero-name { font-size: min(1em, 9.3vw); }
   .lead { font-size: .97rem; }
   .about { grid-template-columns: 1fr; gap: .75rem; }
   .about-copy { padding-top: 0; }
