@@ -1,52 +1,39 @@
 # Portfólio — Lindembergue Frank
 
-Portfólio profissional desenvolvido para apresentar projetos, experiência e decisões de engenharia de software.
+Meu portfólio profissional, com foco em desenvolvimento backend, APIs e sistemas internos.
 
-## Stack
-**React · TypeScript · Vite · Tailwind CSS**
+**Site:** [lindemberguefrank.github.io/portfolio](https://lindemberguefrank.github.io/portfolio/)
 
-## Desenvolvimento
+## Tecnologias
+
+React, TypeScript, Vite e Tailwind CSS.
+
+## Executar localmente
+
 ```bash
 npm install
 npm run dev
 ```
 
-Build: `npm run build`
+Para validar a aplicação:
 
-## Engenharia
-- TypeScript `strict`
-- arquitetura orientada a componentes e seções
-- conteúdo desacoplado da apresentação na evolução do projeto
-- responsividade mobile-first
-- acessibilidade e HTML semântico
-- Conventional Commits
-- branches curtas por feature
-- Pull Requests para integração
-- CI/CD e GitHub Pages no pipeline de release
+```bash
+npm run check
+```
 
-## Conventional Commits
-Formato: `<tipo>(<escopo>): <descrição>`
+Esse comando executa lint, testes e build de produção.
 
-Exemplos:
-- `feat(hero): implement portfolio introduction`
-- `feat(projects): add selected project cards`
-- `refactor(data): decouple project data from UI`
-- `docs(architecture): record frontend decisions`
-- `ci(pages): automate GitHub Pages deployment`
+## Organização
 
-Tipos: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `build`, `ci` e `chore`.
+```text
+src/
+├── components/     # componentes de layout e interface
+├── data/           # conteúdo tipado dos projetos
+├── sections/       # seções e páginas dos cases
+├── styles/         # estilos globais e responsivos
+└── types/          # contratos TypeScript
+```
 
-## Arquitetura
-Consulte [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
+## Publicação
 
-## Roadmap
-- [x] Fundação React + TypeScript + Vite
-- [x] Primeira direção visual responsiva
-- [x] Documentação arquitetural inicial
-- [ ] Componentizar seções e dados
-- [ ] Criar páginas/cases dos projetos
-- [ ] Adicionar lint e testes
-- [ ] Configurar CI
-- [ ] Configurar deploy GitHub Pages
-- [ ] Auditoria de acessibilidade e performance
-- [ ] SEO e metadados sociais
+O deploy no GitHub Pages é realizado automaticamente pelo workflow `.github/workflows/pages.yml` após atualizações na branch `main`.
