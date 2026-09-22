@@ -2,13 +2,13 @@ import type { Project } from '../types/project'
 
 export const projects: Project[] = [
   {
-    slug: 'chamados-ipem-rn',
+    slug: 'plataforma-chamados',
     number: '01',
-    title: 'Plataforma de Chamados IPEM/RN',
-    shortTitle: 'Chamados IPEM/RN',
+    title: 'Plataforma de Chamados',
+    shortTitle: 'Chamados Corporativos',
     status: 'Em produção',
     category: 'Sistema corporativo',
-    summary: 'Sistema de chamados que desenvolvi para organizar o suporte interno do IPEM/RN, com perfis, prioridades, prazos, anexos e relatórios.',
+    summary: 'Sistema de chamados que desenvolvi para organizar o suporte interno de uma instituição pública, com perfis, prioridades, prazos, anexos e relatórios.',
     impact: 'Em uso por aproximadamente 70 servidores e colaboradores.',
     problem: 'As solicitações de suporte chegavam por canais dispersos, sem histórico centralizado, rastreabilidade ou visão gerencial do atendimento.',
     solution: 'Uma aplicação com quatro perfis de acesso, fluxo completo do chamado, distribuição para técnicos, anexos, notificações e dashboards operacionais.',
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     status: 'Em evolução',
     category: 'Dados e relatórios',
     summary: 'Módulo restrito para consultar autos de infração e preparar relatórios em PDF e Excel dentro do ecossistema do sistema de chamados.',
-    impact: 'Projeto em evolução, baseado em uma demanda real do IPEM/RN.',
+    impact: 'Projeto em evolução, baseado em uma demanda real de ambiente corporativo.',
     problem: 'Dados importantes estavam separados do fluxo cotidiano e exigiam esforço manual para consulta, consolidação e apresentação.',
     solution: 'Dashboard vinculado ao ecossistema de chamados, com controle de acesso, filtros e exportações orientadas ao trabalho da equipe.',
     role: 'Descoberta do produto, modelagem das informações, integração visual e definição da experiência de relatórios.',

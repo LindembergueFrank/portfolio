@@ -10,7 +10,7 @@ describe('Portfolio', () => {
   it('renders the professional positioning and projects', () => {
     render(<App />)
     expect(screen.getByRole('heading', { name: /olá, eu sou lindembergue frank/i })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: /chamados ipem\/rn/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /chamados corporativos/i })).toBeInTheDocument()
     expect(screen.getByRole('navigation', { name: /navegação principal/i })).toBeInTheDocument()
   })
 

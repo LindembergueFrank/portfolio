@@ -6,7 +6,7 @@ export function Hero() {
       <div className="hero-copy">
         <p className="eyebrow">DESENVOLVEDOR BACKEND · TÉCNICO EM INFORMÁTICA</p>
         <h1 id="hero-title">Olá, eu sou<br /><em>Lindembergue Frank.</em></h1>
-        <p className="lead">Trabalho com suporte, redes e sistemas internos no IPEM/RN. Desenvolvo principalmente com Java e Spring Boot, e uso Python e Django nos meus projetos de infraestrutura.</p>
+        <p className="lead">Atuo com suporte, redes e sistemas internos no setor público. Desenvolvo principalmente com Java e Spring Boot, e uso Python e Django nos meus projetos de infraestrutura.</p>
         <div className="hero-actions">
           <a className="button button--primary" href="#projetos">Conhecer meus projetos <ArrowIcon /></a>
           <a className="text-link" href="https://github.com/LindembergueFrank" target="_blank" rel="noreferrer">github.com/LindembergueFrank <ArrowIcon /></a>
