@@ -56,7 +56,7 @@ em { color: var(--accent); font-family: Georgia, "Times New Roman", serif; font-
 .lead { max-width: 670px; margin: 1.8rem 0 0; color: var(--muted); font-size: clamp(1rem, 1.7vw, 1.17rem); line-height: 1.75; }
 .hero-actions { margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; gap: 1.1rem; }
 .profile-card { justify-self: end; padding: .75rem; border: 1px solid var(--line); background: var(--surface); }
-.profile-card img { width: min(100%, 200px); height: auto; aspect-ratio: 1; object-fit: cover; filter: saturate(.85); }
+.profile-card img { width: min(100%, 200px); height: auto; margin-inline: auto; aspect-ratio: 1; object-fit: cover; object-position: center; filter: saturate(.85); }
 .profile-card div { padding: 1rem .35rem .25rem; display: flex; flex-direction: column; gap: .32rem; }
 .profile-card strong { font-size: .85rem; }
 .profile-card span { color: var(--muted); font-size: .7rem; }
