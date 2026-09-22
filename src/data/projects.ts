@@ -17,7 +17,7 @@ export const projects: Project[] = [
     decisions: ['Prioridade derivada do contexto do chamado', 'Permissões separadas por responsabilidade', 'Evolução incremental para preservar a operação'],
     results: ['Histórico único por solicitação', 'Fluxo claro da abertura à avaliação', 'Indicadores acessíveis à gestão'],
     technologies: ['Java 17', 'Spring Boot', 'Spring Security', 'JPA/Hibernate', 'PostgreSQL', 'Flyway', 'Docker'],
-    accent: '#7dd3c7',
+    accent: '#2563eb',
   },
   {
     slug: 'netwatch-rn',
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     decisions: ['Começar por ping, disponibilidade e latência', 'Testar regras críticas antes da integração', 'Manter implantação local simples'],
     results: ['37 testes aprovados na CI', 'Health check previsto no fluxo de validação', 'Dashboard responsivo para desktop e celular'],
     technologies: ['Python', 'Django', 'PostgreSQL', 'Docker Compose', 'GitHub Actions', 'Pytest'],
-    accent: '#93c5fd',
+    accent: '#0891b2',
   },
   {
     slug: 'painel-autos',
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     decisions: ['Reutilizar padrões do sistema principal', 'Exibir apenas campos com valor decisório', 'Preparar crescimento sem duplicar autenticação'],
     results: ['Navegação consistente entre produtos', 'Estrutura pronta para relatórios', 'Menos ruído na visualização dos dados'],
     technologies: ['Java', 'Spring Boot', 'PostgreSQL', 'React', 'TypeScript', 'PDF/Excel'],
-    accent: '#f7c873',
+    accent: '#7c3aed',
   },
 ]
 
