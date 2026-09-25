@@ -11,7 +11,7 @@ export function Projects() {
             eyebrow="03 / PROJETOS SELECIONADOS"
             title="Projetos que contam"
             accent="minha trajetória."
-            description="Sistemas criados a partir de necessidades reais do meu trabalho e dos meus estudos."
+            description="Soluções desenvolvidas a partir de necessidades reais do trabalho e de projetos práticos."
           />
         </div>
         <div className="project-list">

@@ -9,7 +9,7 @@ export function Stack() {
   return (
     <div className="stack" id="stack">
       <p className="eyebrow">02 / STACK</p>
-      <h2>Ferramentas que uso<br /><em>na prática.</em></h2>
+      <h2>Ferramentas<br /><em>de trabalho.</em></h2>
       <div className="stack-list">
         {stackGroups.map((group) => (
           <div className="stack-row" key={group.title}>

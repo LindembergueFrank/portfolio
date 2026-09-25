@@ -7,7 +7,7 @@ export function Footer() {
         <p className="eyebrow eyebrow--light">04 / CONTATO</p>
         <div className="footer-grid">
           <h2>Quer conversar<br /><em>sobre tecnologia?</em></h2>
-          <p>Estou buscando oportunidades em backend e também gosto de trocar ideias sobre Java, infraestrutura e projetos reais.</p>
+          <p>Busco oportunidades em backend e tenho grande interesse por Java, infraestrutura e projetos reais. Estou aberto a trocar experiências, colaborar em novos desafios e continuar evoluindo tecnicamente.</p>
         </div>
         <div className="footer-actions">
           <a className="button button--light" href="mailto:lindemberg.frank@gmail.com">E-mail <ArrowIcon /></a>
