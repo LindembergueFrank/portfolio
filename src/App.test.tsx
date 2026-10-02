@@ -7,9 +7,10 @@ describe('Portfolio', () => {
     window.location.hash = ''
   })
 
-  it('renders the professional positioning and projects', () => {
+  it('renders the professional positioning, education and projects', () => {
     render(<App />)
     expect(screen.getByRole('heading', { name: /olá, eu sou lindembergue frank/i })).toBeInTheDocument()
+    expect(screen.getByText(/segurança digital · full stack cloud computing/i)).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /chamados corporativos/i })).toBeInTheDocument()
     expect(screen.getByRole('navigation', { name: /navegação principal/i })).toBeInTheDocument()
   })
