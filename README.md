@@ -1,6 +1,8 @@
 # Portfólio — Lindembergue Frank
 
-Meu portfólio profissional, com foco em desenvolvimento backend, APIs e sistemas internos.
+Meu portfólio profissional, com foco em desenvolvimento backend, APIs, segurança digital e soluções cloud.
+
+Atualmente curso pós-graduação em **Segurança Digital** e pós-graduação em **Full Stack Cloud Computing**, complementando minha formação em Ciência e Tecnologia e Engenharia de Telecomunicações.
 
 **Site:** [lindemberguefrank.github.io/portfolio](https://lindemberguefrank.github.io/portfolio/)
 
