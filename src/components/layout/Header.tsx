@@ -41,7 +41,7 @@ export function Header({ isCasePage = false }: HeaderProps) {
             </>
           )}
         </nav>
-        <a className="nav-cta" href="mailto:lindemberg.frank@gmail.com">Contato <span aria-hidden="true">↗</span></a>
+        <a className="nav-cta" href="mailto:lindembergue.oliveira@outlook.com">Contato <span aria-hidden="true">↗</span></a>
       </div>
     </header>
   )
