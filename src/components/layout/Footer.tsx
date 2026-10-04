@@ -10,7 +10,7 @@ export function Footer() {
           <p>Busco oportunidades em backend e tenho grande interesse por Java, infraestrutura e projetos reais. Estou aberto a trocar experiências, colaborar em novos desafios e continuar evoluindo tecnicamente.</p>
         </div>
         <div className="footer-actions">
-          <a className="button button--light" href="mailto:lindemberg.frank@gmail.com">E-mail <ArrowIcon /></a>
+          <a className="button button--light" href="mailto:lindembergue.oliveira@outlook.com">E-mail <ArrowIcon /></a>
           <a className="button button--light" href="https://github.com/LindembergueFrank" target="_blank" rel="noreferrer">GitHub <ArrowIcon /></a>
         </div>
         <div className="footer-base">
