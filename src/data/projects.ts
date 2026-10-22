@@ -55,6 +55,25 @@ export const projects: Project[] = [
     technologies: ['Java', 'Spring Boot', 'PostgreSQL', 'React', 'TypeScript', 'PDF/Excel'],
     accent: '#7c3aed',
   },
+  {
+    slug: 'api-investimentos',
+    number: '04',
+    title: 'API de Investimentos',
+    shortTitle: 'API‑Investimentos',
+    status: 'Em evolução',
+    category: 'Plataforma financeira full stack',
+    summary: 'Plataforma para organizar carteiras, ativos, compras e vendas, com posições e preço médio derivados de um livro de operações auditável.',
+    impact: '59 testes backend, 2 benchmarks e 20 testes frontend validados pela integração contínua.',
+    problem: 'Uma plataforma financeira precisa preservar precisão decimal, isolamento entre usuários e consistência mesmo quando operações são repetidas ou concorrentes.',
+    solution: 'API REST em Java com cliente React integrado, autenticação segura, catálogo controlado de ativos, histórico paginado e cálculo de posições sem duplicar saldos derivados.',
+    role: 'Definição do produto, arquitetura, modelagem financeira, backend, segurança, frontend, testes automatizados, documentação e integração contínua.',
+    architecture: ['Monólito modular organizado por funcionalidade', 'Arquitetura hexagonal pragmática', 'Livro de operações como fonte de verdade', 'Contratos OpenAPI e migrations Flyway versionadas'],
+    decisions: ['Usar BigDecimal em todos os valores financeiros', 'Derivar posições em vez de armazenar saldos duplicados', 'Combinar idempotência e bloqueio pessimista nas operações', 'Manter refresh token em cookie HttpOnly e access token em memória'],
+    results: ['59 testes backend e 2 benchmarks automatizados', '20 testes frontend com build validado', 'Isolamento por proprietário e sessões rotativas', 'CI validada em H2 e MySQL 8.4 com Testcontainers'],
+    technologies: ['Java 21', 'Spring Boot', 'Spring Security', 'MySQL', 'Flyway', 'Testcontainers', 'React', 'TypeScript', 'Vite'],
+    repositoryUrl: 'https://github.com/LindembergueFrank/API-Investimentos',
+    accent: '#d97706',
+  },
 ]
 
 export const findProject = (slug: string) => projects.find((project) => project.slug === slug)

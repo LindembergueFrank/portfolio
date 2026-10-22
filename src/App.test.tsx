@@ -12,6 +12,7 @@ describe('Portfolio', () => {
     expect(screen.getByRole('heading', { name: /olá, eu sou lindembergue frank/i })).toBeInTheDocument()
     expect(screen.getByText(/segurança digital · full stack cloud computing/i)).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /chamados corporativos/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /api‑investimentos/i })).toBeInTheDocument()
     expect(screen.getByRole('navigation', { name: /navegação principal/i })).toBeInTheDocument()
   })
 
@@ -27,5 +28,16 @@ describe('Portfolio', () => {
     render(<App />)
     expect(screen.getByRole('heading', { name: 'NetWatch RN', level: 1 })).toBeInTheDocument()
     expect(screen.getByText(/37 testes aprovados na CI/i)).toBeInTheDocument()
+  })
+
+  it('presents the verified API investment case and its public repository', () => {
+    window.location.hash = '#/cases/api-investimentos'
+    render(<App />)
+    expect(screen.getByRole('heading', { name: 'API de Investimentos', level: 1 })).toBeInTheDocument()
+    expect(screen.getByText(/59 testes backend, 2 benchmarks e 20 testes frontend/i)).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /ver código no github/i })).toHaveAttribute(
+      'href',
+      'https://github.com/LindembergueFrank/API-Investimentos',
+    )
   })
 })
