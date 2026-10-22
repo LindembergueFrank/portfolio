@@ -16,5 +16,6 @@ export interface Project {
   decisions: string[]
   results: string[]
   technologies: string[]
+  repositoryUrl?: string
   accent: string
 }

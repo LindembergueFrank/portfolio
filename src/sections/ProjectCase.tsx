@@ -39,6 +39,11 @@ export function ProjectCase({ project }: ProjectCaseProps) {
         <ul className="case-tech" aria-label="Tecnologias utilizadas">
           {project.technologies.map((technology) => <li key={technology}>{technology}</li>)}
         </ul>
+        {project.repositoryUrl && (
+          <a className="case-link" href={project.repositoryUrl} target="_blank" rel="noreferrer">
+            Ver código no GitHub <span aria-hidden="true">↗</span>
+          </a>
+        )}
         <a className="next-project" href="#projetos">Ver todos os projetos <span aria-hidden="true">→</span></a>
       </section>
     </main>
